@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.cs');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --main-bg-color:#2874f0;
+}
+.firstletter::first-letter {
+    font-size: 140%;
+    color: red;
+  
+  }
+  .firstletter{
+  color:white;}
+/* header{
+    height: 6vh;
+    background-color:var(--main-bg-color);
+    /* border: 2px solid red; */
+    /* font-family: 'Lato', sans-serif;
+} */
+/* nav{
+    display: flex;
+   
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 70px;
+    padding:0 23px ;
+}
+nav ul{
+    height: 6vh;
+    display: flex;
+    padding :2px;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+nav ul li{
+    list-style:none;
+    padding: 0 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    /*  */
+    /* like link tag in every site have a underline sign so you have to remove these item */
+
+/* } */ 
+/* nav ul li a:hover{ */
+    /* color: rgb(189, 189, 189); */
+    /* font-weight: bolder;
+} */
+/* .search{
+    
+    display: flex;
+    align-items: center;
+    padding: 0 43px;
+}
+.search input{
+    width: 24vw;
+    height: 20px;
+    border-radius: 4px;
+    margin :0 29px 0 10px;
+    padding: 0 12px;
+    font-family: 'Lato', sans-serif
+} */ */
+
+.container{
+  min-height: 86vh;
+}
+footer{
+    /* top:0; */
+    height: 70vh;
+    background-color:rgba(0, 0, 0, 0.863);
+    overflow: hidden;
+  justify-content: center;
+  flex-direction: column;
+    
+    color:white;
+    display: flex;
+    /* bottom: 0; */
+    /* font-family: 'Lato', sans-serif; */
+    
+
+}
+/* .search input{
+    padding: 0 12px;
+    font-family: 'Lato', sans-serif;
+} */
+.bn{
+    display: flex;
+    padding :2px 9px;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    /* margin: 9px; */
+}
+
+
+.slider{
+    display: flex;
+    justify-content: center;
+    margin: 12px;
+    overflow: hidden;
+    /* flex always applying on div element
+     */
+    /* margin: auto;
+    width :80vw; */
+}
+.card
+{ 
+    max-width: 91vw;
+    margin: 37px auto;
+
+}
+.card h2{
+  
+    font-family: 'Ubuntu', sans-serif;
+}
+.my-2{
+    margin: 26px 0;
+}
+.my-1{
+    margin: 7px 0;
+}
+/*  this type of class are use in bootstrap like whenever i need minimum
+margin then i go for my-2 like i have use same classes everwhere */
+.text-center{
+    text-align: center;
+}
+.cards
+{
+    display: inline-flex;
+    flex-direction: row;
+  justify-content: center;
+  overflow: hidden;
+}
+.card-item{
+    width: 14vw;
+    display: inline-flex;
+    justify-content: center;
+/* align-items: center; */
+    flex-direction: column;
+    margin: 0 12px;
+}
+
+/* .lines{
+    padding: 20px;
+} */
+.row{
+    display: inline-flex;
+    /* margin: 14px 20px; */
+    align-items: center;
+    overflow: hidden;
+}
+.firstletter::first-letter {
+    font-size: 140%;
+    color: red;
+    font-family: 'Libre Baskerville', serif;
+  
+  }
+  .firstletter{
+  color:white;
+  font-family: 'Libre Baskerville', serif;}
+.i{
+    max-width: 30 vw;
+    /* display: inline-flex; */
+    justify-content: center;
+    flex-direction: column;
+    margin: 6vw 6vw;
+    display: inline-flex;
+    position: relative;
+    top: -34px;
+}
+.ite{
+    width: 30 vw;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 6vw 6vw;
+}
+.item{
+width: 30 vw;
+    /* display: inline-flex; */
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 6vw 6vw;
+    position: relative;
+    top: -37px;
+}
+/* .confit-address:before {
+    content: "\f015";
+     margin-right:12px;
+
+}
+.confit-mobile:before{
+    content: "\f0e0";
+    margin-right: 16px;
+}
+.confit-mail:before{
+    content: "\f0e0";
+    margin-right:16px;
+} */
+.fo{
+    font-family: 'Ubuntu', sans-serif;
+    color: red;
+}
