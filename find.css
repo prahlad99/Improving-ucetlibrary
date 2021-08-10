@@ -76,8 +76,28 @@ nav ul li a{
 .container{
   min-height: 86vh;
 }
-footer{
-    /* top:0; */
+.foo
+    {
+        position:relative;
+       top: 100vh;
+        height: 70vh;
+        background-color:rgba(0, 0, 0, 0.863);
+        overflow: hidden;
+      justify-content: center;
+      flex-direction: column;
+        
+        color:white;
+        display: flex;
+        /* bottom: 0; */
+        /* font-family: 'Lato', sans-serif; */
+        
+    
+    }
+   
+
+.fooo{
+    /* position:relative; */
+   /* top: 100vh; */
     height: 70vh;
     background-color:rgba(0, 0, 0, 0.863);
     overflow: hidden;
@@ -170,6 +190,13 @@ margin then i go for my-2 like i have use same classes everwhere */
   .firstletter{
   color:white;
   font-family: 'Libre Baskerville', serif;}
+  .firstletter_index::first-letter {
+    font-size: 140%;
+    color: red;
+    font-family: 'Libre Baskerville', serif;
+  
+  }
+ 
 .i{
     max-width: 30 vw;
     /* display: inline-flex; */
@@ -213,4 +240,7 @@ width: 30 vw;
 .fo{
     font-family: 'Ubuntu', sans-serif;
     color: red;
+}
+.index_font{
+    font-family: 'Libre Baskerville', serif;
 }
